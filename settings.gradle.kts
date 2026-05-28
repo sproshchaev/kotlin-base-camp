@@ -3,3 +3,4 @@ plugins {
 }
 rootProject.name = "kotlin-base-camp"
 include("webinar-01")
+include("webinar-02")
