@@ -5,3 +5,4 @@
 3. 03 Управляющие конструкции [webinar-03](webinar-03)
 4. 04 Типы данных в деталях [webinar-04](webinar-04)
 5. 05 Функции в Kotlin [webinar-05](webinar-05)
+6. 06 Null‑безопасность и приведение типов [webinar-06](webinar-06)
