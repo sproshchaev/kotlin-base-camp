@@ -1,15 +1,14 @@
-
-| №  | Имя класса/файла          | Описание                                              |
-|----|---------------------------|-------------------------------------------------------|
-| 1  | `NestedClassDemo`         | Вложенный класс — нет доступа к внешнему классу        |
-| 2  | `InnerClassDemo`          | `inner` — доступ к членам внешнего класса              |
-| 3  | `ObjectDeclarationDemo`   | Singleton через `object`                              |
-| 4  | `CompanionObjectDemo`     | `companion object` — аналог `static`, `const val`     |
-| 5  | `LazyInitDemo`            | `lazy` — отложенная инициализация `val`               |
-| 6  | `LateinitDemo`            | `lateinit` — отложенная инициализация `var`           |
-| 7  | `ToStringDemo`            | Переопределение `toString()`                          |
-| 8  | `DataClassDemo`           | `data class` — авто `equals`/`copy`/`toString`        |
-| 9  | `DestructuringDemo`       | Деструктуризация через `componentN`                   |
-| 10 | `PairTripleDemo`          | `Pair` и `Triple` — возврат нескольких значений       |
-| 11 | `EnumDemo`                | `enum` — константы, `entries`, `valueOf`              |
-| 12 | `SealedClassDemo`         | `sealed class` + `when` без `else`                    |
+| №  | Файл                          | Тема вебинара                        | Ключевые конструкции                |
+|----|-------------------------------|--------------------------------------|-------------------------------------|
+| 1  | `OpenInheritanceDemo.kt`      | Наследование в Kotlin                | `open class`, `: Parent()`          |
+| 2  | `FunctionOverrideDemo.kt`     | Переопределение функций              | `open fun`, `override`, `super`     |
+| 3  | `PropertyOverrideDemo.kt`     | Переопределение свойств              | `open val`, `override val`          |
+| 4  | `PolymorphismDemo.kt`         | Полиморфизм                          | вызов по фактическому типу          |
+| 5  | `ConstructorInheritanceDemo.kt` | Наследование и конструкторы        | `: Parent(args)`                    |
+| 6  | `ConstructorDelegationDemo.kt`| Конструкторы: this vs super          | `this(...)`, `super(...)`           |
+| 7  | `InterfaceDemo.kt`            | Введение в интерфейсы                | `interface`, `override`             |
+| 8  | `DefaultMethodDemo.kt`        | Реализация по умолчанию              | метод с телом, свойство через геттер|
+| 9  | `MultipleInterfacesDemo.kt`   | Наследование интерфейсов             | `: A, B` (множественная реализация) |
+| 10 | `AbstractClassDemo.kt`        | Абстрактные классы                   | `abstract class`, `abstract val/fun`|
+| 11 | `SmartCastDemo.kt`            | Полиморфизм на практике              | `is` + smart cast                   |
+| 12 | `PolymorphicListDemo.kt`      | Интерфейсы + полиморфизм             | `List<Interface>`, цикл             |
