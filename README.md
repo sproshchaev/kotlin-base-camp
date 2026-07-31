@@ -19,3 +19,4 @@
 17. 17 Делегаты, DSL и вспомогательные конструкции [webinar-17](webinar-17)
 18. 18 Дженерики, расширения и перегрузка операторов [webinar-18](webinar-18)
 19. 19 Многопоточность в Kotlin [webinar-19](webinar-19)
+20. 20 Spring Boot: CRUD-приложение на Kotlin [webinar-20](webinar-20)
